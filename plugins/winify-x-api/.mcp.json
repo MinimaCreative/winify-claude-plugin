@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "winify-x-api": {
+      "type": "http",
+      "url": "https://winify.gg/api/mcp",
+      "headers": {
+        "X-API-Key": "${user_config.api_key}"
+      }
+    }
+  }
+}

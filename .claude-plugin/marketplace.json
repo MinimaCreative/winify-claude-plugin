@@ -1,0 +1,21 @@
+{
+  "name": "winify",
+  "owner": {
+    "name": "Winify"
+  },
+  "metadata": {
+    "description": "Winify's plugins for Claude Code.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "winify-x-api",
+      "displayName": "Winify X API",
+      "source": "./plugins/winify-x-api",
+      "description": "X/Twitter data, provably fair giveaway rolls and Kick/YouTube lookups from Claude, paid from your own Winify X API balance. Sign in with Winify or use your API key.",
+      "version": "1.0.0",
+      "category": "data",
+      "tags": ["twitter", "x", "giveaways", "kick", "youtube", "mcp", "winify"]
+    }
+  ]
+}

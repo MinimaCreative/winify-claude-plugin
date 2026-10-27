@@ -1,0 +1,23 @@
+{
+  "name": "winify-x-api",
+  "displayName": "Winify X API",
+  "version": "1.0.0",
+  "description": "X/Twitter data (profiles, posts, followers, retweeters, replies, quotes, search, lists, communities), provably fair giveaway rolls and Kick/YouTube lookups, paid from your own Winify X API balance.",
+  "author": {
+    "name": "Winify",
+    "url": "https://winify.gg"
+  },
+  "homepage": "https://winify.gg/twitter-api?tab=claude",
+  "repository": "https://github.com/MinimaCreative/winify-claude-plugin",
+  "license": "MIT",
+  "keywords": ["twitter", "x", "giveaway", "retweeters", "followers", "kick", "youtube", "mcp"],
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Winify API key (optional)",
+      "description": "Your wnfy_live_… key from https://winify.gg/twitter-api. Leave it empty to sign in with Winify instead: run /mcp, pick winify-x-api and authenticate.",
+      "sensitive": true,
+      "required": false
+    }
+  }
+}
